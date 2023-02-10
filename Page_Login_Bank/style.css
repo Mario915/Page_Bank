@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    height: 704px;
+    width: 375px;
+    overflow: hidden;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: rgb(156, 156, 156);
+    background-image: url(./images/bg-main-desktop.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    flex-direction: column-reverse;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.box-content {
+    top: 104px;
+    background-color: white;
+    width: 375px;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.cartao{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+
+#cartao2 {
+    background: url(./images/bg-card-back.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 200px;
+    height: 200px;
+    color: rgb(140, 140, 140);
+    margin-left: 60px;
+    margin-top: -200px;
+}
+
+#cartao1 {
+    background: url(./images/bg-card-front.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 200px;
+    height: 200px;
+    color: rgb(140, 140, 140);
+    margin-top: -30px;
+    margin-left: 205px;
+}
+
+/**#carHolder{
+    background-color: #e0eeee;
+    border: solid 2px #5f9ea0;
+    width:300px;
+    height: 32px;
+}**/
+
+#txtBusca{
+    float: center;
+    background-color: transparent;
+    padding-left: 5px;
+    font-size: 18px;  
+    height: 32px;
+    width: 191px;
+    border: 1px solid rgba(126, 124, 124, 0.643);
+    border-radius: 5px;
+
+}
+
+#txtDatas {
+    float: center;
+    background-color: transparent;
+    flex-direction: row-reverse;
+    padding-left: 5px;
+    font-size: 18px;  
+    height: 32px;
+    width: 191px;
+    border: 1px solid rgba(126, 124, 124, 0.643);
+    border-radius: 5px;    
+}
+
+#botaum {
+    width: 60px;
+    height: 30px;
+    position: relative;
+    background-color: blueviolet;
+    color: white;
+    box-shadow: 1px 2px 20px 0px rgba(104, 102, 102, 0.58);
+    border-radius: 5px;
+}
